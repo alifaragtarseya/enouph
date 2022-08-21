@@ -280,6 +280,9 @@ section.home{
     top:    75% ;
     left: 50px !important;
 }
+.media a img{
+    width: 80px !important;
+}
 /*************** end section home *********************/
 /*************** start section about us ***************/
 section.about-us div.header h2 b,
