@@ -2,7 +2,7 @@
 
 @extends('front.layouts.master')
 @section('title')
-    {{ __('lang.home') }}
+    {{ __('lang.services') }}
 @endsection
 @section('css')
 
