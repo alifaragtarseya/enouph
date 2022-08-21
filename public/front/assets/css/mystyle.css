@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
+body,
+html ,a,h1,h2,h3,h4.h5.h6,p,span ,b{
+    font-family: 'Tajawal', sans-serif;
+}
+body{
+    overflow-x: clip;
+}
+.main-color,
+.active,
+.btn-outline-success,
+.lang-txt:hover{
+    color: #2D9FD9 !important;
+}
+.bg-color{
+    background-color: #2D9FD9;
+    color: #fff !important;
+}
+
+.img-50{
+    width: 50px;
+}
+.img-80{
+    width: 80px;
+}
+.img-100{
+    width: 100px;
+}
+
+/****************** start navbar *******************/
+.logo{
+    width: 200px !important;
+}
+.navbar{
+    box-shadow: 0px 3px 10px #0000000F !important;
+}
+.nav-link{
+    margin-left: 80px;
+}
+
+.btn-outline-style{
+    border-color: #2D9FD9 !important;
+    border-radius: 50px !important;
+}
+.btn-outline-style:hover{
+    background-color: transparent !important;
+}
+.navbar-nav-style{
+    margin-left: 35%;
+}
+@media (min-width: 992px){
+    .nav-link{
+        margin-left: 50px !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    .navbar-nav-style{
+        margin-left: 45% ;
+    }
+}
+@media only screen and (max-width: 1050px) and (min-width: 995px) {
+    .nav-link{
+        margin-left: 30px !important;
+    }
+
+}
+/*********************** end navbar ****************/
+
+/****************** start section home *******************/
+@media  only screen and (max-width: 788px) and (min-width: 300px) {
+    .title{
+        font: normal normal normal 45px/50px Bodonitown !important ;
+    }
+    /* .title::after{
+
+        bottom: 8% !important;
+    } */
+}
+@media  only screen and (max-width: 280px) and (min-width: 200px) {
+    .title::after{
+        left: 26% !important;
+        bottom: -6% !important;
+        width: 70px !important;
+    }
+    .centred{
+        top: 74% !important;
+    }
+
+    .media img{
+        width: 70px  !important;
+    }
+}
+@media  only screen and (max-width: 359px) and (min-width: 300px) {
+    .title::after{
+
+        bottom: 9% !important;
+    }
+}
+@media  only screen and (max-width: 375px) and (min-width: 366px) {
+    .title::after{
+
+        bottom: -6% !important;
+        left: 29% !important;
+    }
+    .centred{
+        top: 74% !important;
+    }
+
+    .media a img{
+        width: 60px !important;
+    }
+}
+
+@media  only screen and (max-width:393px) and (min-width: 388px) {
+    .title::after{
+        left: 26% !important;
+    }
+    .centred{
+        top: 70% !important;
+    }
+
+    .media a img{
+        width: 60px !important;
+    }
+}
+@media  only screen and (max-width: 365px) and (min-width: 360px) {
+    .title::after{
+        bottom: -8% !important;
+        width: 80px !important;
+        left: 63px !important;
+    }
+    .centred{
+        top: 72% !important;
+    }
+
+    .media a img{
+        width: 60px !important;
+    }
+}
+@media  only screen and (max-width: 420px) and (min-width: 400px) {
+    .title::after{
+        bottom: -9% !important;
+        left: 30% !important;
+    }
+    .media a img{
+        width: 60px !important;
+    }
+}
+
+@media  only screen and (max-width: 540px) and (min-width: 535px) {
+    .title::after{
+        bottom: -16% !important;
+        left: 35% !important;
+        width: 80px !important;
+    }
+
+    .media a img{
+        width: 80px !important;
+    }
+}
+@media  only screen and (max-width: 768px) and (min-width: 700px) {
+    .title::after{
+        bottom: -16% !important;
+        left: 33% !important;
+    }
+    .centred{
+        top: 63% !important;
+    }
+    .media{
+        top: 75% !important;
+    }
+}
+@media  only screen and (max-width: 820px) and (min-width: 770px) {
+    .title::after{
+
+        bottom: -8% !important;
+        left: 37% !important;
+    }
+
+}
+@media  only screen and (max-width: 912px) and (min-width: 900px) {
+    .title::after{
+        bottom: -10% !important;
+        left: 40% !important;
+    }
+
+}
+
+@media  only screen and (max-width: 1025px) and (min-width: 1000px) {
+    .title::after{
+
+        bottom: -8% !important;
+    }
+    .centred{
+        top: 75% !important;
+    }
+
+    .media a img{
+        width: 70px !important;
+    }
+
+}
+
+@media  only screen and (max-width: 1280px) and (min-width: 1200px) {
+    .title::after{
+        bottom: -13% !important;
+        left: 41% !important;
+    }
+    .centred{
+        top: 72% !important;
+    }
+
+    .media a img{
+        width: 70px !important;
+    }
+}
+
+@media  only screen and (width: 280px) {
+    .title{
+        font: normal normal normal 30px/50px Bodonitown !important ;
+    }
+}
+section.home{
+    height: 885px;
+    width: 100%;
+    background-image: url('../images/home/home.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+
+    font: normal normal normal 80px/80px Bodonitown;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.centred{
+    font: normal normal normal 18px/22px ;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.box{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+    flex-direction: column;
+}
+.title::after{
+    content: "";
+    width: 100px;
+    height: 3px;
+    background-color: #fff;
+    position: absolute;
+    bottom: -9%;
+    border-radius: 2px;
+    left: 42%;
+}
+.btn-style{
+    background-color: #2d9fd987;
+    border-radius: 8px;
+    color: #fff;
+}
+.btn-style:hover{
+    color: #fff;
+}
+.media{
+    position: fixed !important;
+    top:    75% ;
+    left: 50px !important;
+}
+/*************** end section home *********************/
+/*************** start section about us ***************/
+section.about-us div.header h2 b,
+section.services div.header h2 b,
+section.contact div.header h2 b{
+border-bottom:2px solid #2D9FD9 ;
+padding-top: 15px;
+
+}
+
+.about-desc{
+    font: normal normal normal 14px/22px ;
+    letter-spacing: 0px;
+    color: #8D8D8D;
+}
+.list-group-item{
+    border: none;
+}
+/**************end setion about us ***********************/
+
+/*************** start section contact ***************/
+.contact-body{
+    background-color: #F3F3F3;
+}
+.input-style{
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    border-radius: 8px !important;
+    border: none !important;
+}
+/*************** end section contact *********************/
+/*************** start section footer ***************/
+section.footer{
+    background-color: #2D9FD9;
+    color: #fff !important;
+}
+
+/*************** end section footer *********************/
