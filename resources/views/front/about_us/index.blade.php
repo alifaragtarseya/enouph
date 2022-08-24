@@ -55,7 +55,7 @@
             {{-- end col 2 --}}
             <div class="col-md-12 pt-2">
                 <div class="header">
-                    <h4><b>The most popular drug used for treatment</b></h4>
+                    <h4><b>{{ __('lang.the_most_popular_drug') }}</b></h4>
                 </div>
                 <div>
                     <ul class="list-group">

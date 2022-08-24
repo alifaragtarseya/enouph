@@ -17,13 +17,13 @@
     <hr>
     <div class="row pt-3  text-center">
         <div class="col-12 col-md-6 col-lg-4">
-            <a style="text-decoration: none" href="tel:012454564"><b>{{ __('lang.tel') }}: 0124564564</b></a>
+            <a style="text-decoration: none" href="tel:01227118885"><b>{{ __('lang.tel') }}: 01227118885</b></a>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
             <a style="text-decoration: none" href="mailto:info@enough.com"><b>{{ __('lang.email') }}: info@enough.com</b></a>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-            {{ __('lang.address') }}: 463 Round Table Drive, Norwood, OH, Ohio
+            {{ __('lang.address') }}: فيلا 339 B الحي المتميز – مدينة بدر 
         </div>
     </div>
 </footer>

@@ -30,9 +30,9 @@
                         <div class="col-12 col-md-5">
                             <div class="box-address pt-5">
                                 <br><br>
-                                <b> {{ __('lang.address') }} :125A Al Haram Street, Giza Government</b>
+                                <b> {{ __('lang.address') }} فيلا 339 B الحي المتميز – مدينة بدر </b>
                                 <br>
-                                <a style="text-decoration: none" href="tel:012454564"><b>{{ __('lang.phone') }} : 0124564564</b></a>
+                                <a style="text-decoration: none" href="tel:01227118885"><b>{{ __('lang.phone') }} : 01227118885</b></a>
                                 <br><br>
                                 <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="facebook"></span></a>
                                 <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="twitter"></span></a>
