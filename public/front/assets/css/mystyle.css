@@ -12,6 +12,11 @@ body{
 .lang-txt:hover{
     color: #2D9FD9 !important;
 }
+
+.footer-active-link
+{
+    color: #081d27 !important;
+}
 .bg-color{
     background-color: #2D9FD9;
     color: #fff !important;
@@ -46,9 +51,9 @@ body{
     background-color: transparent !important;
 }
 .navbar-nav-style{
-    margin-left: 35%;
+    margin-left: 215px;
 }
-@media (min-width: 992px){
+@media  only screen and (width: 992px){
     .nav-link{
         margin-left: 50px !important;
         padding-left: 0 !important;
@@ -58,7 +63,7 @@ body{
         margin-left: 35% ;
     }
     .centred {
-        
+
         top: 85% !important;
     }
 }
@@ -202,6 +207,9 @@ body{
     .media a img{
         width: 70px !important;
     }
+    .navbar-nav-style {
+        margin-left:108px;
+    }
 
 }
 
@@ -216,6 +224,9 @@ body{
 
     .media a img{
         width: 70px !important;
+    }
+    .navbar-nav-style{
+        margin-left: auto ;
     }
 }
 
@@ -285,13 +296,14 @@ section.home{
     left: 50px !important;
 }
 .media a img{
-    width: 80px !important;
+    width: 70px !important;
 }
 /*************** end section home *********************/
 /*************** start section about us ***************/
 section.about-us div.header h2 b,
 section.services div.header h2 b,
-section.contact div.header h2 b{
+section.contact div.header h2 b,
+section.blog div.header h2 b{
 border-bottom:2px solid #2D9FD9 ;
 padding-top: 15px;
 

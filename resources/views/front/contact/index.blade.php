@@ -34,9 +34,8 @@
                                 <br>
                                 <a style="text-decoration: none" href="tel:01227118885"><b>{{ __('lang.phone') }} : 01227118885</b></a>
                                 <br><br>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="facebook"></span></a>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="twitter"></span></a>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="instagram"></span></a>
+                                <a style="text-decoration: none" class="me-4" target="blank" href="https://www.facebook.com/enoughforbetterlife"> <span data-feather="facebook"></span></a>
+                                <a style="text-decoration: none" class="me-4"target="blank"  href="https://www.instagram.com/enough_for_better_life/"> <span data-feather="instagram"></span></a>
                             </div>
                         </div>
                         <div class="col-12 col-md-7">

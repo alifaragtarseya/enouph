@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light w3-white">
     <div class="container">
-      <a class="navbar-brand" href="#"><img class="logo" src="{{ asset('front/assets/images/logoenuff.png') }}" alt=""></a>
+      <a class="navbar-brand" href="{{ route('home.index') }}"><img class="logo" src="{{ asset('front/assets/images/logoenuff.png') }}" alt=""></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -15,6 +15,9 @@
 
           <li class="nav-item">
             <a  class="nav-link {{request()->routeIs('services.index') ?'active' :''}}"  href="{{ route("services.index") }}">{{ __('lang.services') }}</a>
+          </li>
+          <li class="nav-item">
+            <a  class="nav-link {{request()->routeIs('blog.*') ?'active' :''}}"  href="{{ route("blog.index") }}">{{ __('lang.blog') }}</a>
           </li>
         </ul>
         <form class="d-flex">

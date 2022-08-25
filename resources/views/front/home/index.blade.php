@@ -5,7 +5,15 @@
     {{ __('lang.home') }}
 @endsection
 @section('css')
-
+<style>
+    .img-blog{
+        filter: grayscale(1);
+        transition: all .5s
+    }
+    .img-blog:hover{
+        filter: none;
+    }
+</style>
 @endsection
 
 @section('content')
@@ -20,7 +28,7 @@
         <div class="w3-block centred">
            <p> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
            <br>
-           <a href="#" class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
+           <a href="https://wa.me/+201227118885" target="blank" class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
         </div>
 
     </div>
@@ -120,6 +128,90 @@
     {{-- end div container --}}
 </section>
 {{-- end section  --}}
+
+
+{{-- start section blog  --}}
+<section class="blog pt-5">
+    {{-- start div container --}}
+    <div class="container pt-5">
+        {{-- div row --}}
+        <div class="row pt-5">
+            {{-- col 1 header  --}}
+            <div class="col-12">
+                <div class="header">
+                  <h2> <b> {{ __('lang.blog') }}</b></h2>
+
+                </div>
+            </div>
+            {{-- end col 1 --}}
+            {{-- col 2 card  --}}
+            <div class="col-md-12 pt-5">
+                <div class="row">
+                    <div class="col-12 col-lg-6 ">
+                        {{-- blog one  --}}
+                       <a class="text-decoration-none" href="#">
+                            <div class="card"  style="height: 97%">
+                                <img src="{{ asset('front/assets/images/blog/اعراض المواد المخدرة 2.jpg') }}" class="card-img-top img-blog" alt="...">
+                                <div class="card-body">
+                                <h5 class="card-title"><b>{{ __('lang.blog_1_title') }}</b></h5>
+                                <br>
+                                <p class="card-text pb-3">{{ __('lang.blog_1_desc') }}</p>
+                                </div>
+                            </div>
+                       </a>
+                       {{-- end blog one  --}}
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        {{-- blog two  --}}
+                        <a class="text-decoration-none" href="#">
+                            <div class="card mb-3" >
+                                <div class="row g-0">
+                                  <div class="col-md-5">
+                                    <img src="{{ asset('front/assets/images/blog/مواد مخدرة نمتاز بعلاجها .jpg') }}" class="img-fluid img-blog rounded-start" alt="..." style="width: 100%;height: 268px;" >
+                                  </div>
+                                  <div class="col-md-7">
+                                    <div class="card-body">
+                                      <h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5>
+                                      <br><br>
+                                      <p class="card-text w3-text-gray">{{substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>
+
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                       </a>
+                       {{-- end blog two  --}}
+                       <br>
+                       {{-- blog 3  --}}
+                       <a class="text-decoration-none" href="#">
+                        <div class="card mb-3" >
+                            <div class="row g-0">
+                              <div class="col-md-5">
+                                <img src="{{ asset('front/assets/images/blog/63861-الاستروكس.jpg') }}" class="img-fluid img-blog rounded-start" alt="..." style="width: 100%;height: 268px;">
+                              </div>
+                              <div class="col-md-7">
+                                <div class="card-body">
+                                  <h5 class="card-title"><b>{{ __('lang.blog_3_title') }}</b></h5>
+                                  <br><br>
+                                  <p class="card-text">{{ substr(__('lang.blog_3_desc') , 0 , 344) }} .....</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                   </a>
+                   {{-- end blog 3  --}}
+                    </div>
+
+                </div>
+            </div>
+            {{-- end col 2 --}}
+        </div>
+        {{-- end div row --}}
+    </div>
+    {{-- end div container --}}
+</section>
+{{-- end section  --}}
+
 
 
 {{-- start section contact  --}}
