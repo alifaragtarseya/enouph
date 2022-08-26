@@ -2,7 +2,7 @@
 
 @extends('front.layouts.master')
 @section('title')
-    {{ __('lang.contact') }}
+    {{ __('lang.blog') }}
 @endsection
 @section('css')
 <style>
@@ -63,8 +63,8 @@
                                   <div class="col-md-7">
                                     <div class="card-body">
                                       <h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5>
-                                      <br><br>
-                                      <p class="card-text w3-text-gray">{{substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>{{ __('lang.read_more') }}
+                                      <br><br> 
+                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>{{ __('lang.read_more') }}
 
                                     </div>
                                   </div>
@@ -74,7 +74,7 @@
                        {{-- end blog two  --}}
                        <br>
                        {{-- blog 3  --}}
-                       <a class="text-decoration-none" href="#">
+                       <a class="text-decoration-none" href="{{ route('blog.show') }}?type=three">
                         <div class="card mb-3" >
                             <div class="row g-0">
                               <div class="col-md-5">

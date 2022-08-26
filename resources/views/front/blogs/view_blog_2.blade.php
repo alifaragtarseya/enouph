@@ -40,6 +40,7 @@
         </div>
     </div>
     <br><br>
+    {{-- side_effect  --}}
     <div class="row">
         <div class="col-12">
             <div class="blog-title">
@@ -88,6 +89,7 @@
         </div>
     </div>
 
+    {{-- tramadol_effect  --}}
     <br><br>
     <div class="row">
         <div class="col-12">
@@ -332,7 +334,7 @@
         </div>
     </div>
 
-    {{-- heroin desc  --}}
+    {{-- hashish_marijuana desc  --}}
     <br><br>
     <div class="row">
         <div class="col-12">
@@ -344,6 +346,54 @@
 
 
 
+            </div>
+        </div>
+    </div>
+
+
+    {{-- anesthetic Shabu  --}}
+    <br><br>
+    <div class="row">
+        <div class="col-12">
+            <div class="blog-title">
+                <div class="desc">
+                    <h3 class="main-color"><b>{{ __('lang.list_1') }}</b></h3><br>
+                    <p class="w3-text fs-5">{{ __('lang.anesthetic_shabu_desc_1') }}</p>
+                    <p class="w3-text fs-5">{{ __('lang.anesthetic_shabu_desc_2') }}</p>
+                    <p class="w3-text fs-5">{{ __('lang.anesthetic_shabu_desc_3') }}</p>
+                    <p class="w3-text fs-5">{{ __('lang.anesthetic_shabu_desc_4') }}</p>
+                    <p class="w3-text fs-5">{{ __('lang.anesthetic_shabu_desc_5') }}</p>
+                </div>
+
+
+
+            </div>
+
+            <br>
+            <div class="blog-title">
+                <div class="desc">
+                    <h3 class=""><b>{{ __('lang.effects') }}</b></h3><br>
+                    <p class="w3-text fs-5">{{ __('lang.Shabu_effects_desc') }}</p>
+                
+                </div>
+            </div>
+
+            <br>
+            <div class="blog-title">
+                <div class="desc">
+                    <h3 class=""><b>{{ __('lang.side_effect') }}</b></h3><br>
+                    <p class="w3-text fs-5">{{ __('lang.effects_desc') }}</p>
+                
+                </div>
+            </div>
+
+            <br>
+            <div class="blog-title">
+                <div class="desc">
+                    <h3 class=""><b>{{ __('lang.risks') }}</b></h3><br>
+                    <p class="w3-text fs-5">{{ __('lang.risks_desc') }}</p>
+                
+                </div>
             </div>
         </div>
     </div>

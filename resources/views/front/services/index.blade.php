@@ -13,9 +13,9 @@
 {{-- start section Services  --}}
 <section class="services pt-5">
     {{-- start div container --}}
-    <div class="container pt-5">
+    <div class="container ">
          {{-- div row 1 --}}
-         <div class="row pt-5">
+         <div class="row pt-3">
             {{-- col 1 header  --}}
             <div class="col-12">
                 <div class="header">

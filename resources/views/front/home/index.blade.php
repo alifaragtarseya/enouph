@@ -18,8 +18,38 @@
 
 @section('content')
 
-<section class="home ">
 
+<section class="home ">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        {{-- <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div> --}}
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100" alt="...">
+            {{-- <div class="carousel-caption d-none d-md-block">
+             
+            </div> --}}
+          </div>
+          <div class="carousel-item">
+            <img src="{{ asset('front/assets/images/home/slider2.jpg') }}" class="d-block w-100" alt="...">
+            {{-- <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div> --}}
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     <div class="box" style="height: 100%;">
         <div class="title">
            {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
@@ -149,13 +179,17 @@
                 <div class="row">
                     <div class="col-12 col-lg-6 ">
                         {{-- blog one  --}}
-                       <a class="text-decoration-none" href="#">
+                       <a class="text-decoration-none" href="{{ route('blog.show') }}?type=one">
                             <div class="card"  style="height: 97%">
                                 <img src="{{ asset('front/assets/images/blog/اعراض المواد المخدرة 2.jpg') }}" class="card-img-top img-blog" alt="...">
                                 <div class="card-body">
                                 <h5 class="card-title"><b>{{ __('lang.blog_1_title') }}</b></h5>
                                 <br>
-                                <p class="card-text pb-3">{{ __('lang.blog_1_desc') }}</p>
+                                <div class="desc pb-3 ">
+                                    <p class="card-text w3-text-gray">{{ __('lang.blog_1_desc') }} </p> {{ __('lang.read_more') }}
+
+                                </div>
+
                                 </div>
                             </div>
                        </a>
@@ -163,7 +197,7 @@
                     </div>
                     <div class="col-12 col-lg-6">
                         {{-- blog two  --}}
-                        <a class="text-decoration-none" href="#">
+                        <a class="text-decoration-none" href="{{ route('blog.show') }}?type=two">
                             <div class="card mb-3" >
                                 <div class="row g-0">
                                   <div class="col-md-5">
@@ -172,8 +206,8 @@
                                   <div class="col-md-7">
                                     <div class="card-body">
                                       <h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5>
-                                      <br><br>
-                                      <p class="card-text w3-text-gray">{{substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>
+                                      <br><br> 
+                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>{{ __('lang.read_more') }}
 
                                     </div>
                                   </div>
@@ -183,7 +217,7 @@
                        {{-- end blog two  --}}
                        <br>
                        {{-- blog 3  --}}
-                       <a class="text-decoration-none" href="#">
+                       <a class="text-decoration-none" href="{{ route('blog.show') }}?type=three">
                         <div class="card mb-3" >
                             <div class="row g-0">
                               <div class="col-md-5">
@@ -193,7 +227,7 @@
                                 <div class="card-body">
                                   <h5 class="card-title"><b>{{ __('lang.blog_3_title') }}</b></h5>
                                   <br><br>
-                                  <p class="card-text">{{ substr(__('lang.blog_3_desc') , 0 , 344) }} .....</p>
+                                  <p class="card-text w3-text-gray">{{ substr(__('lang.blog_3_desc') , 0 , 344)  }} .....</p>  {{ __('lang.read_more') }}
                                 </div>
                               </div>
                             </div>

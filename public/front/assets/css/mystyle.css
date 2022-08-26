@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');
 body,
 html ,a,h1,h2,h3,h4.h5.h6,p,span ,b{
-    font-family: 'Tajawal', sans-serif;
+    font-family: 'Tajawal', sans-serif !important;
 }
 body{
     overflow-x: clip;
@@ -213,13 +213,13 @@ body{
 
 }
 
-@media  only screen and (max-width: 1280px) and (min-width: 1200px) {
+@media  only screen and (max-width: 1399px) and (min-width: 1200px) {
     .title::after{
         bottom: -13% !important;
         left: 41% !important;
     }
     .centred{
-        top: 72% !important;
+        top: 90% !important;
     }
 
     .media a img{
@@ -235,14 +235,7 @@ body{
         font: normal normal normal 30px/50px Bodonitown !important ;
     }
 }
-section.home{
-    height: 885px;
-    width: 100%;
-    background-image: url('../images/home/home.png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .title{
 
     font: normal normal normal 80px/80px Bodonitown;
@@ -259,7 +252,7 @@ section.home{
     letter-spacing: 0px;
     color: #FFFFFF;
     position: absolute;
-    top: 67%;
+    top: 85%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
