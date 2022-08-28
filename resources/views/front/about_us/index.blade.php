@@ -25,7 +25,8 @@
                     <div class="row g-0">
                       <div class="col-md-6">
                         <div class="card-body pt-5">
-                          <p class="card-text about-desc">{{ __('lang.about_desc_more') }}</p>
+                          <p class="card-text about-desc">{{ __('lang.about_desc_more_1') }}</p>
+                          <p class="card-text about-desc">{{ __('lang.about_desc_more_2') }}</p>
                         </div>
                       </div>
                       <div class="col-md-6">

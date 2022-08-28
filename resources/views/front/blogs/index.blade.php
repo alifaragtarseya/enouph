@@ -63,8 +63,8 @@
                                   <div class="col-md-7">
                                     <div class="card-body">
                                       <h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5>
-                                      <br><br> 
-                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>{{ __('lang.read_more') }}
+                                      <br>
+                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,157) }} .....</p>{{ __('lang.read_more') }}
 
                                     </div>
                                   </div>
@@ -72,7 +72,7 @@
                               </div>
                        </a>
                        {{-- end blog two  --}}
-                       <br>
+                       <br><br>
                        {{-- blog 3  --}}
                        <a class="text-decoration-none" href="{{ route('blog.show') }}?type=three">
                         <div class="card mb-3" >
@@ -83,8 +83,8 @@
                               <div class="col-md-7">
                                 <div class="card-body">
                                   <h5 class="card-title"><b>{{ __('lang.blog_3_title') }}</b></h5>
-                                  <br><br>
-                                  <p class="card-text w3-text-gray">{{ substr(__('lang.blog_3_desc') , 0 , 344)  }} .....</p>  {{ __('lang.read_more') }}
+                                  <br>
+                                  <p class="card-text w3-text-gray">{{ substr(__('lang.blog_3_desc') , 0 , 244)  }} .....</p>  {{ __('lang.read_more') }}
                                 </div>
                               </div>
                             </div>

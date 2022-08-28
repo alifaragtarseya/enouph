@@ -1,4 +1,4 @@
-@php $dir2 = app()->getLocale() == 'ar' ? 'right' : 'left'; @endphp
+@php $dir = app()->getLocale() == 'ar' ? 'rtl' : 'ltr'; @endphp
 
 @extends('front.layouts.master')
 @section('title')
@@ -29,7 +29,7 @@
           <div class="carousel-item active">
             <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100" alt="...">
             {{-- <div class="carousel-caption d-none d-md-block">
-             
+
             </div> --}}
           </div>
           <div class="carousel-item">
@@ -39,7 +39,7 @@
               <p>Some representative placeholder content for the second slide.</p>
             </div> --}}
           </div>
-          
+
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -206,8 +206,8 @@
                                   <div class="col-md-7">
                                     <div class="card-body">
                                       <h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5>
-                                      <br><br> 
-                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,353) }} .....</p>{{ __('lang.read_more') }}
+                                      <br>
+                                      <p class="card-text w3-text-gray">{{ __('lang.list_3') }} {{ substr( __('lang.blog_2_desc') , 0 ,157) }} .....</p>{{ __('lang.read_more') }}
 
                                     </div>
                                   </div>
@@ -215,7 +215,7 @@
                               </div>
                        </a>
                        {{-- end blog two  --}}
-                       <br>
+                       <br><br>
                        {{-- blog 3  --}}
                        <a class="text-decoration-none" href="{{ route('blog.show') }}?type=three">
                         <div class="card mb-3" >
@@ -226,8 +226,8 @@
                               <div class="col-md-7">
                                 <div class="card-body">
                                   <h5 class="card-title"><b>{{ __('lang.blog_3_title') }}</b></h5>
-                                  <br><br>
-                                  <p class="card-text w3-text-gray">{{ substr(__('lang.blog_3_desc') , 0 , 344)  }} .....</p>  {{ __('lang.read_more') }}
+                                  <br>
+                                  <p class="card-text w3-text-gray">{{ substr(__('lang.blog_3_desc') , 0 , 244)  }} .....</p>  {{ __('lang.read_more') }}
                                 </div>
                               </div>
                             </div>
@@ -269,13 +269,12 @@
                         <div class="col-12 col-md-5">
                             <div class="box-address pt-5">
                                 <br><br>
-                                <b> {{ __('lang.address') }} :فيلا 339 B الحي المتميز – مدينة بدر  </b>
+                                <b> {{ __('lang.address') }} {{ $dir == 'rtl' ? 'فيلا 339 B الحي المتميز – مدينة بدر' :'Villa 339 B Privileged District – Badr City '}}</b>
                                 <br>
                                 <a style="text-decoration: none" href="tel:01227118885"><b>{{ __('lang.phone') }} : 01227118885</b></a>
                                 <br><br>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="facebook"></span></a>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="twitter"></span></a>
-                                <a style="text-decoration: none" class="me-4" href="#"> <span data-feather="instagram"></span></a>
+                                <a style="text-decoration: none" class="me-4" target="blank" href="https://www.facebook.com/enoughforbetterlife"> <span data-feather="facebook"></span></a>
+                                <a style="text-decoration: none" class="me-4"target="blank"  href="https://www.instagram.com/enough_for_better_life/"> <span data-feather="instagram"></span></a>
                             </div>
                         </div>
                         <div class="col-12 col-md-7">

@@ -21,7 +21,7 @@
     @yield('content')
     <div class="media" style="width: 150px; {{ app()->getLocale() == 'en' ? 'left:50px'  :'right: 50px'}}; ">
         <a href="https://www.facebook.com/enoughforbetterlife" target="blank"> <img src="{{ asset('front/assets/images/home/messenger.png') }}"alt=""><br></a>
-        <a href="https://wa.me/+201227118885" target="blank"> <img src="{{ asset('front/assets/images/home/whatsapp.png') }}" alt=""></a>
+        <a href="https://api.whatsapp.com/send?phone=201227118885" target="blank"> <img src="{{ asset('front/assets/images/home/whatsapp.png') }}" alt=""></a>
       </div>
     @include('front.layouts.footer')
 

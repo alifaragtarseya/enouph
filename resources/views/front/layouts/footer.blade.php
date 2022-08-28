@@ -26,7 +26,7 @@
             <a style="text-decoration: none" href="mailto:info@enough.com"><b>{{ __('lang.email') }}: info@enough.com</b></a>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-            {{ __('lang.address') }}: فيلا 339 B الحي المتميز – مدينة بدر
+            {{ __('lang.address') }} : {{ $dir == 'rtl' ? '}فيلا 339 B الحي المتميز – مدينة بدر' :'Villa 339 B Privileged District – Badr City '}}
         </div>
     </div>
 </footer>

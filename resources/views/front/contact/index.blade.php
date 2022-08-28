@@ -1,4 +1,4 @@
-@php $dir2 = app()->getLocale() == 'ar' ? 'right' : 'left'; @endphp
+@php $dir = app()->getLocale() == 'ar' ? 'rtl' : 'ltr'; @endphp
 
 @extends('front.layouts.master')
 @section('title')
@@ -30,7 +30,7 @@
                         <div class="col-12 col-md-5">
                             <div class="box-address pt-5">
                                 <br><br>
-                                <b> {{ __('lang.address') }} فيلا 339 B الحي المتميز – مدينة بدر </b>
+                                <b> {{ __('lang.address') }} {{ $dir == 'rtl' ? 'فيلا 339 B الحي المتميز – مدينة بدر' :'Villa 339 B Privileged District – Badr City '}}</b>
                                 <br>
                                 <a style="text-decoration: none" href="tel:01227118885"><b>{{ __('lang.phone') }} : 01227118885</b></a>
                                 <br><br>
