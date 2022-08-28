@@ -29,7 +29,7 @@
         <div class="col-12 col-md-6">
             <div class="card-body">
                 <ul>
-                    <li><h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5></li>
+                    <li class="list-unstyled"><h5 class="card-title"><b>{{ __('lang.blog_2_title') }}</b></h5></li>
                 </ul>
                 <br>
                 <div class="desc">
@@ -374,7 +374,7 @@
                 <div class="desc">
                     <h3 class=""><b>{{ __('lang.effects') }}</b></h3><br>
                     <p class="w3-text fs-5">{{ __('lang.Shabu_effects_desc') }}</p>
-                
+
                 </div>
             </div>
 
@@ -383,7 +383,7 @@
                 <div class="desc">
                     <h3 class=""><b>{{ __('lang.side_effect') }}</b></h3><br>
                     <p class="w3-text fs-5">{{ __('lang.effects_desc') }}</p>
-                
+
                 </div>
             </div>
 
@@ -392,7 +392,7 @@
                 <div class="desc">
                     <h3 class=""><b>{{ __('lang.risks') }}</b></h3><br>
                     <p class="w3-text fs-5">{{ __('lang.risks_desc') }}</p>
-                
+
                 </div>
             </div>
         </div>

@@ -13,6 +13,39 @@
     .img-blog:hover{
         filter: none;
     }
+    .box-slid {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    .box-center{
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+
+    }
+
+element.style {
+}
+.d-block {
+    display: block!important;
+}
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 0.25rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+.carousel-caption {
+
+    background: #00000047 !important;
+    border-radius: 10px !important;
+}
 </style>
 @endsection
 
@@ -20,48 +53,56 @@
 
 
 <section class="home ">
-    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        {{-- <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        </div> --}}
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100" alt="...">
-            {{-- <div class="carousel-caption d-none d-md-block">
-
+        <div id="carouselExampleCaptions" class="carousel slide " data-bs-ride="carousel">
+            {{-- <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div> --}}
-          </div>
-          <div class="carousel-item">
-            <img src="{{ asset('front/assets/images/home/slider2.jpg') }}" class="d-block w-100" alt="...">
-            {{-- <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div> --}}
-          </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active box-slid">
+                <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-md-block">
+                        <div class="title">
+                           {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
 
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    <div class="box" style="height: 100%;">
-        <div class="title">
-           {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
+                        </div>
+                        <div class="w3-block centred">
+                           <p class="fs-5"> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
+                           <br>
+                           <a href="https://wa.me/+201227118885" target="blank" class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
+                        </div>
 
-        </div>
-        <div class="w3-block centred">
-           <p> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
-           <br>
-           <a href="https://wa.me/+201227118885" target="blank" class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
-        </div>
 
+                </div>
+              </div>
+              <div class="carousel-item box-slid">
+                <img src="{{ asset('front/assets/images/home/slider2.jpg') }}" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-block d-md-block">
+                    <div class="title">
+                       {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
+
+                    </div>
+                    <div class="w3-block centred">
+                       <p class="fs-5"> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
+                       <br>
+                       <a href="https://wa.me/+201227118885" target="blank" class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
+                    </div>
+
+
+            </div>
+              </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
     </div>
+
 
 
 </section>

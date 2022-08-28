@@ -235,19 +235,27 @@ body{
         font: normal normal normal 30px/50px Bodonitown !important ;
     }
 }
-
+@media  only screen and (min-width: 1900px) {
+    .carousel-caption {
+        position: absolute;
+        right: 15%;
+        bottom: 32.25rem !important;
+        left: 15%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+        text-align: center;
+    }
+}
 .title{
 
     font: normal normal normal 80px/80px Bodonitown;
     letter-spacing: 0px;
     color: #FFFFFF;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
     text-align: center;
 }
-.centred{
+/* .centred{
     font: normal normal normal 18px/22px ;
     letter-spacing: 0px;
     color: #FFFFFF;
@@ -256,7 +264,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-}
+} */
 .box{
     height: 100%;
     display: flex;
@@ -265,16 +273,7 @@ body{
     align-content: stretch;
     flex-direction: column;
 }
-.title::after{
-    content: "";
-    width: 100px;
-    height: 3px;
-    background-color: #fff;
-    position: absolute;
-    bottom: -9%;
-    border-radius: 2px;
-    left: 42%;
-}
+
 .btn-style{
     background-color: #2d9fd987;
     border-radius: 8px;
