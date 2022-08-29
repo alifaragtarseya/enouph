@@ -16,6 +16,7 @@
             <div class="col-12">
                 <div class="header">
                   <h2> <b> {{ __('lang.about') }}</b></h2>
+                  <br><p class="fs-3">{{ __('lang.we_are_not_the_only_ones_but_we_are_the_strongest') }}</p>
                 </div>
             </div>
             {{-- end col 1 --}}

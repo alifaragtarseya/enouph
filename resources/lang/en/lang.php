@@ -34,6 +34,7 @@ return [
     'tel' => 'Tel',
 
     //about
+    'we_are_not_the_only_ones_but_we_are_the_strongest' => 'We are not the only ones but we are the strongest',
     'about_desc_more_1' => 'We are characterized by containing the addict to take his hand and climb from the abyss amid a suitable therapeutic environment that helps him to recover to become valuable and prominent in society until he overcomes the circumstances that have become the reason behind the use  of drugs, our goal is to raise his awareness against addiction and help him, and to bring him to safety, to become a productive person and a measure of responsibility in society. ',
     'about_desc_more_2' => 'We are one of the finest centers specialized in quitting drugs and alcohol and we have a distinguished team with experience specialized in helping the addict and getting him to safety through the availability of amenities and well-being',
 
@@ -57,6 +58,18 @@ return [
     'program_2_desc' => 'This program was established in the early sixties as a method of treatment, organized and concise directed to deal with the patient\'s current problems with the reconfiguration of negative thinking and the consequent behaviors, addicts have a certain pattern of thinking that leads them to relapse and return again to the drug or addictive behavior and if addicts are helped to discover the patterns of thinking and deep beliefs that they adopt and are changed by correct and objective thought patterns this will help them to settle in recovery and live in a way that will help them to settle down in recovery and live in a way that More effective.'    ,
     'combined_therapy' => 'Collective therapy',
     'program_3_desc' => 'It is a type of therapy in which a group suffering from illness or psychological suffering is selected and that group is led by an experienced therapist with the aim of bringing about a qualitative change in the personalities of its members The therapist uses the interaction of those members within their group to bring about change in their personalities, and other internationally accredited programs, individual sessions and family awareness sessions. ',
+    'other_services' => 'Other Services',
+
+    'hotel'=> 'Hotel accommodation',
+    'hotel_desc'=> 'An integrated hotel residence with all entertainment and therapeutic programs designed specifically to provide a therapeutic journey to reach full recovery, through  an integrated suite in which the guest stays in a quiet atmosphere in isolation from the rest of the rooms with the availability of a quiet music system, in order to help guests to resurrect tranquility and relaxation of the soul and rehabilitation along with all other programs.',
+    'leisure_trips'=> 'Leisure trips ',
+    'leisure_trips_desc'=> 'Recreational trips are organized for guests that help them to fully recover, take out negative energies and show a new face from their personalities to deal more comfortably,  these recreational trips are designed under the hands of experts to help complete recovery and that is an essential aspect of the personal rehabilitation that  we follow within our center, ',
+    'entertainment_games'=> 'Entertaining Games ',
+    'entertainment_games_desc'=> 'In order to prevent boredom and help the guest to feel well-being and do more than one means of entertainment, the center does all the recreational and entertaining games that provide psychological comfort and distract awareness in what is more useful and healthy, these recreational games are represented in (Xbox -  swimming pool  -  ping pong  -  billiards - PlayStation) ',
+    'psychologist'=> 'Psychologist',
+    'psychologist_desc'=> 'The center provides specialists and psychological counselors around the clock to help guests overcome the stages of addiction more quickly and healthily, through individual sessions andsessions in groups to help the guest to identify himself and his personality and ease of living with life without abuse, and this gives him the confidence to face individuals only without taking an anesthetic',
+    'hotel_food'=> 'Hotel food ',
+    'hotel_food_desc'=> 'Providing hotel meals with care and superior quality to maintain the health of the guest and work on the speed of recovery amid a therapeutic and recreational environment that allows him to overcome the crisis healthily, so we took care inside the center to provide meals according to the desire of the guest without restriction for a successful stay experience.',
 
 
     //blog 1

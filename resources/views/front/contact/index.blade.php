@@ -40,12 +40,13 @@
                         </div>
                         <div class="col-12 col-md-7">
                             <div class="from-group">
-                                <form action="{{ route('lang.index') }}" >
+                                <form action=""  >
+                                    @csrf   
                                     <div class="form-group ">
                                         <input type="text" name="name" class="form-control input-style p-3" placeholder="{{ __('lang.enter_your_name') }}">
                                     </div>
                                     <div class="form-group pt-3">
-                                        <input type="text" name="name" class="form-control input-style p-3" placeholder="{{ __('lang.enter_email') }}">
+                                        <input type="email" name="email" class="form-control input-style p-3" placeholder="{{ __('lang.enter_email') }}">
                                     </div>
                                     <div class="form-group pt-3">
                                         <textarea name="message" class="form-control input-style p-3" id="" cols="30" rows="10" placeholder="{{ __('lang.enter_your_message') }}"></textarea>

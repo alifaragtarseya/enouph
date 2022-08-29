@@ -27,6 +27,7 @@
             <div class="col-12">
                 <div class="header">
                   <h2> <b> {{ __('lang.blog') }}</b></h2>
+                  
 
                 </div>
             </div>

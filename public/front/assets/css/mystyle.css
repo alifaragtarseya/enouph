@@ -105,6 +105,13 @@ body{
         bottom: 9% !important;
     }
 }
+@media  only screen and (max-width: 505px) and (min-width: 100px) {
+    .carousel-caption {
+        font-size: 0px !important;
+        bottom: -1px !important;
+    }
+}
+
 @media  only screen and (max-width: 375px) and (min-width: 366px) {
     .title::after{
 
