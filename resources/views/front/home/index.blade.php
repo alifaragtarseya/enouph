@@ -51,6 +51,14 @@
             background: #00000047 !important;
             border-radius: 10px !important;
         }
+
+        .img-style {
+            max-width: 515px;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat
+        }
     </style>
 @endsection
 
@@ -63,7 +71,8 @@
             </div> --}}
             <div class="carousel-inner">
                 <div class="carousel-item active box-slid">
-                    <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100"  style="height: 900px"alt="...">
+                    <img src="{{ asset('front/assets/images/home/slider.jpg') }}" class="d-block w-100"
+                        style="height: 900px"alt="...">
                     <div class="carousel-caption d-block d-md-block">
                         <div class="title">
                             {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
@@ -80,7 +89,8 @@
                     </div>
                 </div>
                 <div class="carousel-item box-slid">
-                    <img src="{{ asset('front/assets/images/home/slider2.jpg') }}" class="d-block w-100" style="height: 900px" alt="...">
+                    <img src="{{ asset('front/assets/images/home/slider2.jpg') }}" class="d-block w-100"
+                        style="height: 900px" alt="...">
                     <div class="carousel-caption d-block d-md-block">
                         <div class="title">
                             {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
@@ -96,20 +106,21 @@
                 </div>
 
                 <div class="carousel-item box-slid">
-                  <img src="{{ asset('front/assets/images/home/سلايدر.jpg') }}" class="d-block w-100" style="height: 900px" alt="...">
-                  <div class="carousel-caption d-block d-md-block">
-                      <div class="title">
-                          {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
+                    <img src="{{ asset('front/assets/images/home/سلايدر.jpg') }}" class="d-block w-100"
+                        style="height: 900px" alt="...">
+                    <div class="carousel-caption d-block d-md-block">
+                        <div class="title">
+                            {{ __('lang.rediscover_the') }} <br> {{ __('lang.joy_of_life') }}
 
-                      </div>
-                      <div class="w3-block centred">
-                          <p class="fs-5"> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
-                          <br>
-                          <a href="https://wa.me/+201227118885" target="blank"
-                              class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
-                      </div>
-                  </div>
-              </div>
+                        </div>
+                        <div class="w3-block centred">
+                            <p class="fs-5"> {{ __('lang.we_will_provide_you_with_the_highest_level_of_treatment') }}</p>
+                            <br>
+                            <a href="https://wa.me/+201227118885" target="blank"
+                                class="btn btn-style">{{ __('lang.reserve_your_palce_now') }}</a>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
@@ -180,44 +191,107 @@
                 <div class="col-12">
                     <div class="header">
                         <h2> <b> {{ __('lang.services') }}</b></h2>
-                        <br><br>
-                        <b>{{ __('lang.therapeutic_programs') }}</b>
+                        {{-- <br><br>
+                        <b>{{ __('lang.therapeutic_programs') }}</b> --}}
                     </div>
                 </div>
                 {{-- end col 1 --}}
                 {{-- col 2 card --}}
                 <div class="col-md-12 pt-5">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card" style="border: 0">
-                                <img src="{{ asset('front/assets/images/home/star.svg') }}" class="card-img-top img-80"
-                                    alt="...">
-                                <div class="card-body">
-                                    <h4 class="card-title fw-bold">{{ __('lang.the_12_steps_program') }}</h4>
-                                    <p class="card-text about-desc">{{ __('lang.program_1_desc') }}</p>
+                        <div class="col-12 pt-1  ">
+                            <div class="card mb-3" style="border: 0">
+                                <div class="row g-0">
+                                    <div class="col-md-6 p-5">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold">{{ __('lang.hotel') }}</h4><br>
+                                            <p class="card-text about-desc fs-5">{{ __('lang.hotel_desc') }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-4">
+                                        <div class="img-style"
+                                            style="background-image:url('{{ asset('front/assets/images/services/أقامة فندقية.jpg') }}')">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card" style="border: 0">
-                                <img src="{{ asset('front/assets/images/home/star.svg') }}" class="card-img-top img-80"
-                                    alt="...">
-                                <div class="card-body">
-                                    <h4 class="card-title fw-bold">{{ __('lang.cognitive_behavioral_therapy') }}</h4>
-                                    <p class="card-text about-desc">{{ __('lang.program_2_desc') }}</p>
+                        <div class="col-12 pt-3 ">
+                            <div class="card mb-3" style="border: 0">
+                                <div class="row g-0">
+                                    <div class="col-md-6  p-4">
+                                        <div class="img-style"
+                                            style="background-image:url('{{ asset('front/assets/images/services/رحلات ترفيهية.jpg') }}')">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-5">
+                                        <div class="card-body p-4">
+                                            <h4 class="card-title fw-bold">{{ __('lang.leisure_trips') }}</h4><br>
+                                            <p class="card-text about-desc fs-5">{{ __('lang.leisure_trips_desc') }}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-12 pt-1  ">
+                            <div class="card mb-3" style="border: 0">
+                                <div class="row g-0">
+                                    <div class="col-md-6 p-5">
+                                        <div class="card-body">
+                                            <h4 class="card-title fw-bold">{{ __('lang.entertainment_games') }}</h4><br>
+                                            <p class="card-text about-desc fs-5">{{ __('lang.entertainment_games_desc') }}
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-4">
+                                        <div class="img-style"
+                                            style="background-image:url('{{ asset('front/assets/images/services/العاب ترفيهية.jpg') }}')">
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
-                            <div class="card" style="border: 0">
-                                <img src="{{ asset('front/assets/images/home/star.svg') }}" class="card-img-top img-80"
-                                    alt="...">
-                                <div class="card-body">
-                                    <h4 class="card-title fw-bold">{{ __('lang.combined_therapy') }}</h4>
-                                    <p class="card-text about-desc">{{ __('lang.program_3_desc') }}</p>
+                        <div class="col-12 pt-3 ">
+                            <div class="card mb-3" style="border: 0">
+                                <div class="row g-0">
+                                    <div class="col-md-6  p-4">
+                                        <div class="img-style"
+                                            style="background-image:url('{{ asset('front/assets/images/services/أخصائى نفسي.jpg') }}')">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 p-5">
+                                        <div class="card-body p-4">
+                                            <h4 class="card-title fw-bold">{{ __('lang.psychologist') }}</h4><br>
+                                            <p class="card-text about-desc fs-5">{{ __('lang.psychologist_desc') }}</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+
                         </div>
+
+                        {{-- <div class="col-12 pt-3 ">
+                            <div class="card mb-3" style="border: 0">
+                                <div class="row g-0">
+
+                                    <div class="col-md-6 p-5">
+                                        <div class="card-body p-4">
+                                            <h4 class="card-title fw-bold">{{ __('lang.hotel_food') }}</h4><br>
+                                            <p class="card-text about-desc fs-5">{{ __('lang.hotel_food_desc') }}</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6  p-4">
+                                        <div class="img-style"
+                                            style="background-image:url('{{ asset('front/assets/images/services/طعام فندقي.jpg') }}')">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> --}}
+
                     </div>
                 </div>
                 {{-- end col 2 --}}
